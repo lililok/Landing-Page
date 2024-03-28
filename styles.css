@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 5px 100px;
+    justify-content: space-around;
+    padding: 8px;
 }
 
 .container1 {
@@ -31,6 +31,7 @@ button {
     color: #F9FAF8;
     font-weight: extra-bold;
     margin: 0;
+    gap: 20px;
 }
 
 ul {
@@ -61,15 +62,20 @@ ul {
     flex-direction: column;
     margin: 0;
     flex-wrap: nowrap;
-
+    align-items: flex-start;
+    padding-right: 30px;
+    width: 350px;
+    height: auto;
  }
 
  .main_hero {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 50px 100px;
-    gap: 10px;
+    justify-content: center;
+    padding: 50px 50px;
+    gap: 30px;
+
  }
 
  .container2 {
@@ -115,6 +121,14 @@ ul {
 
 .container3 {
     background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .quote {
@@ -122,9 +136,16 @@ ul {
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+    width: 650px;
+
 }
 
 .author {
     font-weight: bold;
     color: #1F2937;
+   padding-left: 325px;
+}
+
+.container4 {
+   
 }
