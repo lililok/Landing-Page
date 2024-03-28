@@ -147,5 +147,53 @@ ul {
 }
 
 .container4 {
-   
+   padding: 100px;
+   display: flex;
+   justify-content: center;
+}
+
+.call_to_action {
+   background-color: #3882F6;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px 0;
+   width: 600px;
+
+}
+
+.call_main {
+   color: #F9FAF8;
+   font-size: 24px;
+   margin: 0;
+}
+
+.call_secondary {
+   color: #F9FAF8;
+   font-size: 15px;
+   margin: 0;
+}
+
+.sign_up_call {
+   border: 1px solid #E5E7EB; 
+}
+
+.call_text {
+   padding-right: 50px
+}
+
+.footer {
+   background-color: #1F2937;
+   text-align: center;
+   padding: 25px;
+}
+
+.copyright {
+   color: #E5E7EB;
+   font-size: 15px;
+}
+
+body {
+   margin: 0;
 }
